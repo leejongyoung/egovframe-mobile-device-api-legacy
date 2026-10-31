@@ -108,17 +108,17 @@
 		<dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>2.9.10</version>
+            <version>2.18.11</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
-            <version>2.9.10</version>
+            <version>2.18.11</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.10.5</version>
+            <version>2.18.11</version>
         </dependency>
         
 		<dependency>
@@ -276,12 +276,6 @@
 		    <version>2.3.2</version>
 		</dependency -->
 
-		<!-- FCM(Firebase Cloud Messaging) 구성 시작  -->
-		<dependency>
-			<groupId>com.googlecode.json-simple</groupId>
-			<artifactId>json-simple</artifactId>
-			<version>1.1.1</version>
-		</dependency>
 
 		<dependency>
 			<groupId>com.google.api-client</groupId>
