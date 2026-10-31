@@ -117,6 +117,7 @@ package-lock.json
 .env
 .env.*
 !.env.example
+**/*-firebase-adminsdk-*.json
 
 # --- Editor / merge ---
 *.orig

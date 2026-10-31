@@ -4,7 +4,7 @@
 [![Java](https://img.shields.io/badge/Java-8-007396?logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Spring Framework](https://img.shields.io/badge/Spring%20Framework-4.3.25-F2F4F9?logo=spring)](https://spring.io/projects/spring-framework)
 
-**eGovFramework 4.3.x 이하 Legacy 통합 저장소** — Android / iOS 하이브리드 앱 및 `web-guide` 서버 예제입니다.
+**eGovFramework Legacy 통합 저장소(4.3.x 이하 범위, 이 브랜치는 3.10 기준)** — Android / iOS 하이브리드 앱 및 `web-guide` 서버 예제입니다.
 
 > **중요:** 본 저장소는 **로컬 개발·학습용 템플릿**입니다. **운영(Production) 환경에 그대로 배포하지 마세요.**
 
@@ -43,6 +43,7 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 - Java 8, Maven, DB(MySQL 등) 필요
 - WAR 빌드 후 Tomcat 등에 배포
 - API 문서: `http://localhost:<port>/<context>/swagger-ui.html` (로컬 확인용)
+- WAR 파일명: `Template-DeviceAPI-Total_Web-<버전>.war`(예: 이 브랜치는 `-3.10.0.war`). `globals.properties`의 컨텍스트 경로와 맞지 않으면 조정하세요.
 
 ### 모바일 앱
 
@@ -87,7 +88,7 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 5. 파일 업로드·다운로드·푸시 API에 **인증·소유권 검증** 재검토
 6. `commons-fileupload`, `jackson-databind` 등 **의존성 CVE 점검** 및 상향
 
-취약점 점검·조치 내역은 별도 점검 보고서를 참고하고, 운영 적용 전 **독립적인 보안 점검**을 수행하세요.
+취약점 점검·조치 내역은 아래 지원 버전 표와 이슈 목록을 참고하고, 운영 적용 전 **독립적인 보안 점검**을 수행하세요.
 
 ---
 
@@ -98,9 +99,9 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 | eGovFramework RTE | **3.10.0** (Legacy 통합 기준) |
 | Spring Framework | 4.3.25.RELEASE |
 | spring-security-crypto | 4.2.20.RELEASE |
-| commons-fileupload | 1.3.3 |
+| commons-fileupload | 1.6.0 |
 | jackson-databind | 2.18.11 |
-| swagger | 2.9.2 |
+| springfox-swagger2/-ui | 2.9.2 |
 | Java | 8 |
 
 ---
