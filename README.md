@@ -23,7 +23,7 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 
 | eGovFramework 버전 | 저장소 |
 |---|---|
-| 4.3.x 이하 | 이 저장소 (Legacy) |
+| 4.3.x 이하 (이 브랜치는 3.10 기준: RTE 3.10.0, Spring 4.3.25) | 이 저장소 (Legacy) |
 | 5.0.0 이상 | [egovframe-mobile-device-api](https://github.com/eGovFramework/egovframe-mobile-device-api) |
 
 버전별 브랜치(예: `3.9.x`, `3.10.x`)가 별도로 관리되는 경우, 해당 브랜치의 `README`와 설정을 함께 확인하세요.
@@ -99,7 +99,7 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 | Spring Framework | 4.3.25.RELEASE |
 | spring-security-crypto | 4.2.20.RELEASE |
 | commons-fileupload | 1.3.3 |
-| jackson-databind | 2.9.10.5 |
+| jackson-databind | 2.18.11 |
 | swagger | 2.9.2 |
 | Java | 8 |
 
