@@ -1,5 +1,9 @@
 # egovframe-mobile-device-api (3.9.x)
 
+[![eGovFrame](https://img.shields.io/badge/eGovFrame-3.9-134F8C?labelColor=white&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzMuMjgyIDE3My4yODIiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xNzMuMjgyIDg2LjY1YzAgNDcuODQ0LTM4Ljc5NCA4Ni42MzItODYuNjQ2IDg2LjYzMkMzOC43OTkgMTczLjI4MiAwIDEzNC40OTQgMCA4Ni42NSAwIDM4Ljc4OCAzOC43OTkgMCA4Ni42MzYgMGM0Ny44NTIgMCA4Ni42NDYgMzguNzg4IDg2LjY0NiA4Ni42NSIvPjxwYXRoIGZpbGw9IiMwMDM3NjQiIGQ9Ik0xMjcuMzg5IDgwLjU5OGMtMTMuNzkxLTkuMzY1LTMxLjQzOS01LjU0Mi00MC43MTcgOC41MzMtNy43MiAxMS43NjctMTkuNDA1IDEzLjIzNS0yMy45MDYgMTMuMjM1LTE0Ljc1MSAwLTI0LjgyNC0xMC4zNjctMjcuODE4LTIxLjA5NWgtLjAxYy0uMDM5LS4xMDgtLjA1OS0uMi0uMDktLjMwNy0uMDI1LS4xMi0uMDU2LS4yMzMtLjA4OS0uMzY2LTEuMTc3LTQuNDY3LTEuNDY3LTYuNjA5LTEuNDY3LTExLjM2OCAwLTI1LjY1IDI2LjMyMS01NC4yMTMgNjQuMjE1LTU0LjIxMyAzOC44MjkgMCA2MS4wNSAyOS41NDUgNjYuNzggNDUuOTc5LS4xMDctLjI5NS0uMjA5LS41ODEtLjI5MS0uODc3LTExLjAxNS0zMi4xMjUtNDEuNDc0LTU1LjIxNi03Ny4zNTctNTUuMjE2LTQ1LjEzIDAtODEuNzI5IDM2LjU5LTgxLjcyOSA4MS43MzkgMCA0MC4zNTEgMjkuMTA4IDc0Ljg5MSA2OS40NzkgNzQuODkxIDMyLjE5NyAwIDUzLjg0Mi0xOC4wNTIgNjMuNzU3LTQyLjkzIDUuNDUtMTMuNjE0IDEuNTk1LTI5LjYwNS0xMC43NTctMzguMDA1Ii8%2BPHBhdGggZmlsbD0iI2U0MDMyZSIgZD0iTTE2NC43ODggNjIuNTg5Yy00Ljc3Ny0xNi4wMjYtMjcuMTUzLTQ3LjU3MS02Ny4yODItNDcuNTcxLTM3Ljg5NCAwLTY0LjIxNCAyOC41NjMtNjQuMjE0IDU0LjIxMiAwIDQuNzU5LjI5IDYuOTAxIDEuNDY2IDExLjM2OC0uNDg5LTEuOTUxLS43NC0zLjkwOC0uNzQtNS44MjMgMC0yNi43MjEgMjYuNzQxLTQ1LjIyNyA1NC4yNDgtNDUuMjI3IDM3LjIxOCAwIDY3LjM4OCAzMC4xNzQgNjcuMzg4IDY3LjM5IDAgMjkuMTczLTE2Ljc4NSA1NC40MzctNDEuMTc5IDY2LjU2NXYuMDIzYzMxLjQ1NS0xMS4zOTEgNTMuOTA4LTQxLjUxMiA1My45MDgtNzYuODg0IDAtOC4zNzgtMS4xMjctMTUuNzU5LTMuNTk1LTI0LjA1MyIvPjwvc3ZnPg%3D%3D)](https://www.egovframe.go.kr)
+[![Java](https://img.shields.io/badge/Java-8-007396?logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![Spring Framework](https://img.shields.io/badge/Spring%20Framework-4.3.22-F2F4F9?logo=spring)](https://spring.io/projects/spring-framework)
+
 **eGovFramework 3.9.x** — Android / iOS 하이브리드 앱 및 `web-guide` 서버 예제입니다.
 
 > **중요:** 본 저장소는 **로컬 개발·학습용 템플릿**입니다. **운영(Production) 환경에 그대로 배포하지 마세요.**
@@ -19,7 +23,7 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 
 | eGovFramework 버전 | 저장소 |
 |---|---|
-| 3.9.x | 이 저장소 |
+| 3.9.x (RTE 3.9.0, Spring 4.3.22) | 이 저장소 |
 | 3.10.x | `egovframe-mobile-device-api-legacy-3.10.x` |
 | 5.0.0 이상 | [egovframe-mobile-device-api](https://github.com/eGovFramework/egovframe-mobile-device-api) |
 
@@ -37,6 +41,7 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 
 - Java 8, Maven, DB(MySQL 등) 필요
 - WAR 빌드 후 Tomcat 등에 배포
+- WAR 파일명: `Template-DeviceAPI-Total_Web-<버전>.war`(예: 이 브랜치는 `-3.9.0.war`). `globals.properties`의 컨텍스트 경로와 맞지 않으면 조정하세요.
 - 데모 페이지: `index.jsp`, `chat-sockjs.jsp`, `test-ajax.jsp` (로컬 확인용)
 
 ### 모바일 앱
@@ -93,8 +98,8 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 | eGovFramework RTE | **3.9.0** |
 | Spring Framework | **4.3.22.RELEASE** |
 | spring-security-crypto | 4.2.20.RELEASE |
-| commons-fileupload | 1.3.3 |
-| jackson-databind | 2.9.10.5 |
+| commons-fileupload | 1.6.0 |
+| jackson-databind | 2.18.11 |
 | Java | 8 |
 
 ---
