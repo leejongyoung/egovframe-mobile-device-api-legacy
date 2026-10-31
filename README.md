@@ -43,6 +43,7 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 - Java 8, Maven, DB(MySQL 등) 필요
 - WAR 빌드 후 Tomcat 등에 배포
 - API 문서: `http://localhost:<port>/<context>/swagger-ui.html` (로컬 확인용)
+- WAR 파일명: `Template-DeviceAPI-Total_Web-<버전>.war`(예: 이 브랜치는 `-4.3.1.war`). `globals.properties`의 컨텍스트 경로와 맞지 않으면 조정하세요.
 
 ### 모바일 앱
 
@@ -98,9 +99,9 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 | eGovFramework RTE | **4.3.1** (`org.egovframe.rte`, 이 브랜치 기준) |
 | Spring Framework | 5.3.39-egov.1 (egovframe 저장소 패치 빌드) |
 | spring-security-crypto | 5.8.16 (Maven Central) |
-| commons-fileupload | 1.3.3 |
+| commons-fileupload | 1.6.0 |
 | jackson-databind | 2.18.11 |
-| swagger | 2.9.2 |
+| springfox-swagger2/-ui | 2.9.2 |
 | Java | 8 |
 | javax.servlet-api (provided) | 4.0.1 |
 | javax.servlet.jsp-api (provided) | 2.3.3 |
