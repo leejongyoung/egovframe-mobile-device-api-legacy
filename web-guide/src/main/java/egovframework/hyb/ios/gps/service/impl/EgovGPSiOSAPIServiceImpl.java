@@ -21,7 +21,7 @@ import egovframework.hyb.ios.gps.service.EgovGPSiOSAPIService;
 import egovframework.hyb.ios.gps.service.GPSiOSAPIDefaultVO;
 import egovframework.hyb.ios.gps.service.GPSiOSAPIVO;
 
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 import javax.annotation.Resource;
 

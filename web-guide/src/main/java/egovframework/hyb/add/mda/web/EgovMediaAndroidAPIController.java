@@ -34,7 +34,7 @@ import egovframework.hyb.add.mda.service.MediaAndroidAPIVO;
 import egovframework.hyb.add.mda.service.MediaAndroidAPIXmlVO;
 import egovframework.com.cmm.security.DeviceAPIAuthSupport;
 import egovframework.hyb.add.mda.service.impl.EgovMediaAndroidFileMngUtil;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

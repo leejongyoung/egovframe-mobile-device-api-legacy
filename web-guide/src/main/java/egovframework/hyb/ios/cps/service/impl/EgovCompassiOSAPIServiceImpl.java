@@ -26,8 +26,8 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.ios.cps.service.CompassiOSAPIDefaultVO;
 import egovframework.hyb.ios.cps.service.CompassiOSAPIVO;
 import egovframework.hyb.ios.cps.service.EgovCompassiOSAPIService;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovCompassiOSAPIServiceImpl.java

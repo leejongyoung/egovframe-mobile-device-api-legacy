@@ -21,7 +21,7 @@ import egovframework.hyb.add.cps.service.CompassAndroidAPIDefaultVO;
 import egovframework.hyb.add.cps.service.CompassAndroidAPIVO;
 import egovframework.hyb.add.cps.service.CompassAndroidAPIVOList;
 import egovframework.hyb.add.cps.service.EgovCompassAndroidAPIService;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

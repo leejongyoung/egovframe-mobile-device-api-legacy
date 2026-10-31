@@ -11,7 +11,7 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import egovframework.com.cmm.security.DeviceAPIAccessDeniedException;
 import egovframework.com.cmm.security.DeviceAPIAuthSupport;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**
  * 인증여부 체크 인터셉터

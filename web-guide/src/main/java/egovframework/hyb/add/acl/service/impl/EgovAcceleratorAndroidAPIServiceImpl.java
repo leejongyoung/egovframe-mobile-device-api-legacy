@@ -24,8 +24,8 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.add.acl.service.AcceleratorAndroidAPIDefaultVO;
 import egovframework.hyb.add.acl.service.AcceleratorAndroidAPIVO;
 import egovframework.hyb.add.acl.service.EgovAcceleratorAndroidAPIService;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovAcceleratorAPIServiceImpl.java

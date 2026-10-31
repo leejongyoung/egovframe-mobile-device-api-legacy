@@ -19,7 +19,7 @@ import egovframework.hyb.add.frw.service.EgovFileReaderWriterAndroidAPIService;
 import egovframework.hyb.add.frw.service.FileReaderWriterAndroidAPIVO;
 import egovframework.hyb.add.frw.service.FileReaderWriterAndroidAPIVOList;
 import egovframework.hyb.add.frw.service.impl.EgovFileMngAndroidUtil;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

@@ -33,7 +33,7 @@ import egovframework.hyb.add.nwk.service.EgovNetworkAndroidAPIService;
 import egovframework.hyb.add.nwk.service.NetworkAndroidAPIDefaultVO;
 import egovframework.hyb.add.nwk.service.NetworkAndroidAPIVO;
 import egovframework.hyb.add.nwk.service.NetworkAndroidAPIXmlVO;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

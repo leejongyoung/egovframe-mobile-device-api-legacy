@@ -10,8 +10,8 @@ import java.util.Set;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
-import egovframework.rte.fdl.cmmn.exception.EgovBizException;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.exception.EgovBizException;
 
 public final class DeviceAPIFileUploadValidator {
 

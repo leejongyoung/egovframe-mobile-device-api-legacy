@@ -31,7 +31,7 @@ import org.springframework.web.servlet.ModelAndView;
 import egovframework.hyb.ios.gps.service.EgovGPSiOSAPIService;
 import egovframework.hyb.ios.gps.service.GPSiOSAPIDefaultVO;
 import egovframework.hyb.ios.gps.service.GPSiOSAPIVO;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

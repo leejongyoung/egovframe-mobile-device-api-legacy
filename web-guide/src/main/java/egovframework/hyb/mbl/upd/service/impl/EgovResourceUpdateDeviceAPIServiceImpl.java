@@ -24,7 +24,7 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.ios.frw.service.impl.EgovFileMngiOSUtil;
 import egovframework.hyb.mbl.upd.service.EgovResourceUpdateDeviceAPIService;
 import egovframework.hyb.mbl.upd.service.ResourceUpdateDeviceAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 /**  
  * @Class Name : EgovPushDeviceAPIServiceImpl.java

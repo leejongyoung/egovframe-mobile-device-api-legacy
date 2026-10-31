@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import egovframework.hyb.add.ctt.service.ContactsAndroidAPIVO;
 import egovframework.hyb.ios.ctt.service.ContactsiOSAPIVO;
 import egovframework.hyb.ios.ctt.service.EgovContactsiOSAPIService;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

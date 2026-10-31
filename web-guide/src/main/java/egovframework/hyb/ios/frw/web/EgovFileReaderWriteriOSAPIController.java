@@ -19,7 +19,7 @@ import egovframework.com.cmm.security.DeviceAPIAuthSupport;
 import egovframework.hyb.ios.frw.service.EgovFileReaderWriteriOSAPIService;
 import egovframework.hyb.ios.frw.service.FileReaderWriteriOSAPIVO;
 import egovframework.hyb.ios.frw.service.impl.EgovFileMngiOSUtil;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

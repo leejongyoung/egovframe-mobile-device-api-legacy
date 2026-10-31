@@ -10,7 +10,7 @@
         </property>
     </bean>
 
-	<bean name="propertiesService" class="egovframework.rte.fdl.property.impl.EgovPropertyServiceImpl" destroy-method="destroy">
+	<bean name="propertiesService" class="org.egovframe.rte.fdl.property.impl.EgovPropertyServiceImpl" destroy-method="destroy">
 		<property name="properties">
 	        <map>
 	        	<entry key="pageUnit" value="2"/>

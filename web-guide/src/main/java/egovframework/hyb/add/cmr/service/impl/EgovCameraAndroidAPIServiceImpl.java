@@ -33,8 +33,8 @@ import egovframework.hyb.add.cmr.service.CameraAndroidAPIDefaultVO;
 import egovframework.hyb.add.cmr.service.CameraAndroidAPIFileVO;
 import egovframework.hyb.add.cmr.service.CameraAndroidAPIVO;
 import egovframework.hyb.add.cmr.service.EgovCameraAndroidAPIService;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovCameraAndroidAPIServiceImpl.java

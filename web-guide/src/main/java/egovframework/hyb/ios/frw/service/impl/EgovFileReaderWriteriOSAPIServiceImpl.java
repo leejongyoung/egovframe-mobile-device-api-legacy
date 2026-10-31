@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import egovframework.hyb.ios.frw.service.EgovFileReaderWriteriOSAPIService;
 import egovframework.hyb.ios.frw.service.FileReaderWriteriOSAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 /**  
  * @Class Name : EgovFileReaderWriteriOSAPIServiceImpl.java

@@ -33,8 +33,8 @@ import egovframework.hyb.ios.cmr.service.CameraiOSAPIDefaultVO;
 import egovframework.hyb.ios.cmr.service.CameraiOSAPIFileVO;
 import egovframework.hyb.ios.cmr.service.CameraiOSAPIVO;
 import egovframework.hyb.ios.cmr.service.EgovCameraiOSAPIService;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovCameraIOSAPIServiceImpl.java

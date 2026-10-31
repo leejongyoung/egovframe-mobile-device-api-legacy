@@ -1,8 +1,8 @@
-# egovframe-mobile-device-api-legacy
+# egovframe-mobile-device-api-legacy (4.3.x)
 
-[![eGovFrame](https://img.shields.io/badge/eGovFrame-3.10-134F8C?labelColor=white&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzMuMjgyIDE3My4yODIiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xNzMuMjgyIDg2LjY1YzAgNDcuODQ0LTM4Ljc5NCA4Ni42MzItODYuNjQ2IDg2LjYzMkMzOC43OTkgMTczLjI4MiAwIDEzNC40OTQgMCA4Ni42NSAwIDM4Ljc4OCAzOC43OTkgMCA4Ni42MzYgMGM0Ny44NTIgMCA4Ni42NDYgMzguNzg4IDg2LjY0NiA4Ni42NSIvPjxwYXRoIGZpbGw9IiMwMDM3NjQiIGQ9Ik0xMjcuMzg5IDgwLjU5OGMtMTMuNzkxLTkuMzY1LTMxLjQzOS01LjU0Mi00MC43MTcgOC41MzMtNy43MiAxMS43NjctMTkuNDA1IDEzLjIzNS0yMy45MDYgMTMuMjM1LTE0Ljc1MSAwLTI0LjgyNC0xMC4zNjctMjcuODE4LTIxLjA5NWgtLjAxYy0uMDM5LS4xMDgtLjA1OS0uMi0uMDktLjMwNy0uMDI1LS4xMi0uMDU2LS4yMzMtLjA4OS0uMzY2LTEuMTc3LTQuNDY3LTEuNDY3LTYuNjA5LTEuNDY3LTExLjM2OCAwLTI1LjY1IDI2LjMyMS01NC4yMTMgNjQuMjE1LTU0LjIxMyAzOC44MjkgMCA2MS4wNSAyOS41NDUgNjYuNzggNDUuOTc5LS4xMDctLjI5NS0uMjA5LS41ODEtLjI5MS0uODc3LTExLjAxNS0zMi4xMjUtNDEuNDc0LTU1LjIxNi03Ny4zNTctNTUuMjE2LTQ1LjEzIDAtODEuNzI5IDM2LjU5LTgxLjcyOSA4MS43MzkgMCA0MC4zNTEgMjkuMTA4IDc0Ljg5MSA2OS40NzkgNzQuODkxIDMyLjE5NyAwIDUzLjg0Mi0xOC4wNTIgNjMuNzU3LTQyLjkzIDUuNDUtMTMuNjE0IDEuNTk1LTI5LjYwNS0xMC43NTctMzguMDA1Ii8%2BPHBhdGggZmlsbD0iI2U0MDMyZSIgZD0iTTE2NC43ODggNjIuNTg5Yy00Ljc3Ny0xNi4wMjYtMjcuMTUzLTQ3LjU3MS02Ny4yODItNDcuNTcxLTM3Ljg5NCAwLTY0LjIxNCAyOC41NjMtNjQuMjE0IDU0LjIxMiAwIDQuNzU5LjI5IDYuOTAxIDEuNDY2IDExLjM2OC0uNDg5LTEuOTUxLS43NC0zLjkwOC0uNzQtNS44MjMgMC0yNi43MjEgMjYuNzQxLTQ1LjIyNyA1NC4yNDgtNDUuMjI3IDM3LjIxOCAwIDY3LjM4OCAzMC4xNzQgNjcuMzg4IDY3LjM5IDAgMjkuMTczLTE2Ljc4NSA1NC40MzctNDEuMTc5IDY2LjU2NXYuMDIzYzMxLjQ1NS0xMS4zOTEgNTMuOTA4LTQxLjUxMiA1My45MDgtNzYuODg0IDAtOC4zNzgtMS4xMjctMTUuNzU5LTMuNTk1LTI0LjA1MyIvPjwvc3ZnPg%3D%3D)](https://www.egovframe.go.kr)
+[![eGovFrame](https://img.shields.io/badge/eGovFrame-4.3-134F8C?labelColor=white&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzMuMjgyIDE3My4yODIiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xNzMuMjgyIDg2LjY1YzAgNDcuODQ0LTM4Ljc5NCA4Ni42MzItODYuNjQ2IDg2LjYzMkMzOC43OTkgMTczLjI4MiAwIDEzNC40OTQgMCA4Ni42NSAwIDM4Ljc4OCAzOC43OTkgMCA4Ni42MzYgMGM0Ny44NTIgMCA4Ni42NDYgMzguNzg4IDg2LjY0NiA4Ni42NSIvPjxwYXRoIGZpbGw9IiMwMDM3NjQiIGQ9Ik0xMjcuMzg5IDgwLjU5OGMtMTMuNzkxLTkuMzY1LTMxLjQzOS01LjU0Mi00MC43MTcgOC41MzMtNy43MiAxMS43NjctMTkuNDA1IDEzLjIzNS0yMy45MDYgMTMuMjM1LTE0Ljc1MSAwLTI0LjgyNC0xMC4zNjctMjcuODE4LTIxLjA5NWgtLjAxYy0uMDM5LS4xMDgtLjA1OS0uMi0uMDktLjMwNy0uMDI1LS4xMi0uMDU2LS4yMzMtLjA4OS0uMzY2LTEuMTc3LTQuNDY3LTEuNDY3LTYuNjA5LTEuNDY3LTExLjM2OCAwLTI1LjY1IDI2LjMyMS01NC4yMTMgNjQuMjE1LTU0LjIxMyAzOC44MjkgMCA2MS4wNSAyOS41NDUgNjYuNzggNDUuOTc5LS4xMDctLjI5NS0uMjA5LS41ODEtLjI5MS0uODc3LTExLjAxNS0zMi4xMjUtNDEuNDc0LTU1LjIxNi03Ny4zNTctNTUuMjE2LTQ1LjEzIDAtODEuNzI5IDM2LjU5LTgxLjcyOSA4MS43MzkgMCA0MC4zNTEgMjkuMTA4IDc0Ljg5MSA2OS40NzkgNzQuODkxIDMyLjE5NyAwIDUzLjg0Mi0xOC4wNTIgNjMuNzU3LTQyLjkzIDUuNDUtMTMuNjE0IDEuNTk1LTI5LjYwNS0xMC43NTctMzguMDA1Ii8%2BPHBhdGggZmlsbD0iI2U0MDMyZSIgZD0iTTE2NC43ODggNjIuNTg5Yy00Ljc3Ny0xNi4wMjYtMjcuMTUzLTQ3LjU3MS02Ny4yODItNDcuNTcxLTM3Ljg5NCAwLTY0LjIxNCAyOC41NjMtNjQuMjE0IDU0LjIxMiAwIDQuNzU5LjI5IDYuOTAxIDEuNDY2IDExLjM2OC0uNDg5LTEuOTUxLS43NC0zLjkwOC0uNzQtNS44MjMgMC0yNi43MjEgMjYuNzQxLTQ1LjIyNyA1NC4yNDgtNDUuMjI3IDM3LjIxOCAwIDY3LjM4OCAzMC4xNzQgNjcuMzg4IDY3LjM5IDAgMjkuMTczLTE2Ljc4NSA1NC40MzctNDEuMTc5IDY2LjU2NXYuMDIzYzMxLjQ1NS0xMS4zOTEgNTMuOTA4LTQxLjUxMiA1My45MDgtNzYuODg0IDAtOC4zNzgtMS4xMjctMTUuNzU5LTMuNTk1LTI0LjA1MyIvPjwvc3ZnPg%3D%3D)](https://www.egovframe.go.kr)
 [![Java](https://img.shields.io/badge/Java-8-007396?logo=openjdk&logoColor=white)](https://openjdk.org/)
-[![Spring Framework](https://img.shields.io/badge/Spring%20Framework-4.3.25-F2F4F9?logo=spring)](https://spring.io/projects/spring-framework)
+[![Spring Framework](https://img.shields.io/badge/Spring%20Framework-5.3.39-F2F4F9?logo=spring)](https://spring.io/projects/spring-framework)
 
 **eGovFramework 4.3.x 이하 Legacy 통합 저장소** — Android / iOS 하이브리드 앱 및 `web-guide` 서버 예제입니다.
 
@@ -23,10 +23,10 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 
 | eGovFramework 버전 | 저장소 |
 |---|---|
-| 4.3.x 이하 (이 브랜치는 3.10 기준: RTE 3.10.0, Spring 4.3.25) | 이 저장소 (Legacy) |
+| 4.3.x 이하 (**이 브랜치 `4.3.x`: RTE 4.3.1, Spring 5.3.39-egov.1**) | 이 저장소 (Legacy) — 버전별 브랜치 `3.9.x` · `3.10.x` · `4.0.x` · `4.1.x` · `4.2.x` · `4.3.x` |
 | 5.0.0 이상 | [egovframe-mobile-device-api](https://github.com/eGovFramework/egovframe-mobile-device-api) |
 
-버전별 브랜치(예: `3.9.x`, `3.10.x`)가 별도로 관리되는 경우, 해당 브랜치의 `README`와 설정을 함께 확인하세요.
+버전별 브랜치(`3.9.x`, `3.10.x`, `4.0.x`, `4.1.x`, `4.2.x`, `4.3.x`)가 별도로 관리되는 경우, 해당 브랜치의 `README`와 설정을 함께 확인하세요.
 
 ---
 
@@ -71,7 +71,7 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 | WebSocket | Origin `*` 등 완화 설정 | Origin·인증 제한 |
 | Cordova | `config.xml` 광범위 allowlist | 필요 도메인만 허용 |
 | 비밀정보 | Firebase Admin SDK JSON 등 포함 가능 | **반드시 교체·폐기**, Secret 관리 |
-| 의존성 | Spring 4.3 / 구형 Cordova 스택 | 보안 패치·지원 종료 여부 점검 |
+| 의존성 | Spring 5.3 / 구형 Cordova 스택 | 보안 패치·지원 종료 여부 점검 |
 
 ### 저장소에 포함될 수 있는 민감 파일
 
@@ -95,13 +95,15 @@ eGovFramework **5.0.0 이상**을 사용하신다면 [egovframe-mobile-device-ap
 
 | 항목 | 버전 |
 |------|------|
-| eGovFramework RTE | **3.10.0** (Legacy 통합 기준) |
-| Spring Framework | 4.3.25.RELEASE |
-| spring-security-crypto | 4.2.20.RELEASE |
+| eGovFramework RTE | **4.3.1** (`org.egovframe.rte`, 이 브랜치 기준) |
+| Spring Framework | 5.3.39-egov.1 (egovframe 저장소 패치 빌드) |
+| spring-security-crypto | 5.8.16 (Maven Central) |
 | commons-fileupload | 1.3.3 |
 | jackson-databind | 2.18.11 |
 | swagger | 2.9.2 |
 | Java | 8 |
+| javax.servlet-api (provided) | 4.0.1 |
+| javax.servlet.jsp-api (provided) | 2.3.3 |
 
 ---
 

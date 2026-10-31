@@ -32,8 +32,8 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.add.nwk.service.EgovNetworkAndroidAPIService;
 import egovframework.hyb.add.nwk.service.NetworkAndroidAPIDefaultVO;
 import egovframework.hyb.add.nwk.service.NetworkAndroidAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovNetworkAndroidAPIServiceImpl.java

@@ -20,12 +20,12 @@ import org.springframework.web.multipart.MultipartFile;
 import egovframework.com.cmm.security.DeviceAPIFileUploadValidator;
 import egovframework.hyb.ios.mda.service.EgovMediaiOSAPIService;
 import egovframework.hyb.ios.mda.service.MediaiOSAPIFileVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
-import egovframework.rte.fdl.cmmn.exception.EgovBizException;
-import egovframework.rte.fdl.cmmn.exception.FdlException;
-import egovframework.rte.fdl.idgnr.EgovIdGnrService;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.exception.EgovBizException;
+import org.egovframe.rte.fdl.cmmn.exception.FdlException;
+import org.egovframe.rte.fdl.idgnr.EgovIdGnrService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 
 /**  
  * @Class Name : EgovFileTransfer.java

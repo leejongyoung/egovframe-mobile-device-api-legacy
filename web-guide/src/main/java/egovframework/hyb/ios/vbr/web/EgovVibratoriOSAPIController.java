@@ -31,7 +31,7 @@ import org.springframework.web.servlet.ModelAndView;
 import egovframework.hyb.ios.vbr.service.EgovVibratoriOSAPIService;
 import egovframework.hyb.ios.vbr.service.VibratoriOSAPIDefaultVO;
 import egovframework.hyb.ios.vbr.service.VibratoriOSAPIVO;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

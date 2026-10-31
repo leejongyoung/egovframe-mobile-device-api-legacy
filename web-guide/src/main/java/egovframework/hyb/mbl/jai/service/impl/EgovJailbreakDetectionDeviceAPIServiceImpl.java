@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.mbl.jai.service.EgovJailbreakDetectionDeviceAPIService;
 import egovframework.hyb.mbl.jai.service.JailbreakDetectionDeviceAPIDefaultVO;
 import egovframework.hyb.mbl.jai.service.JailbreakDetectionDeviceAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 /**  
  * @Class Name : EgovJailbreakDetectionDeviceAPIServiceImpl

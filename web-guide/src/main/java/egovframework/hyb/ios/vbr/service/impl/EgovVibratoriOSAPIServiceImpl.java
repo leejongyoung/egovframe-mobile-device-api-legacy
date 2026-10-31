@@ -21,7 +21,7 @@ import egovframework.hyb.ios.vbr.service.EgovVibratoriOSAPIService;
 import egovframework.hyb.ios.vbr.service.VibratoriOSAPIDefaultVO;
 import egovframework.hyb.ios.vbr.service.VibratoriOSAPIVO;
 
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 import javax.annotation.Resource;
 

@@ -24,8 +24,8 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.add.cps.service.CompassAndroidAPIDefaultVO;
 import egovframework.hyb.add.cps.service.CompassAndroidAPIVO;
 import egovframework.hyb.add.cps.service.EgovCompassAndroidAPIService;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovCompassAPIServiceImpl.java

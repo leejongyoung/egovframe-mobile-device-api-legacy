@@ -32,7 +32,7 @@ import egovframework.hyb.ios.acl.service.AcceleratoriOSAPIDefaultVO;
 import egovframework.hyb.ios.acl.service.AcceleratoriOSAPIVO;
 import egovframework.hyb.ios.acl.service.EgovAcceleratoriOSAPIService;
 import egovframework.hyb.ios.dvc.service.DeviceiOSAPIVO;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

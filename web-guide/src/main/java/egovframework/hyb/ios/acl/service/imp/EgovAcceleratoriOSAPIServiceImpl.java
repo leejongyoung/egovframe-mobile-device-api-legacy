@@ -26,8 +26,8 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.ios.acl.service.AcceleratoriOSAPIDefaultVO;
 import egovframework.hyb.ios.acl.service.AcceleratoriOSAPIVO;
 import egovframework.hyb.ios.acl.service.EgovAcceleratoriOSAPIService;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovAcceleratorAPIServiceImpl.java

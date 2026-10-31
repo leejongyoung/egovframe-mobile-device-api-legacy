@@ -17,8 +17,8 @@
     </licenses>
 
     <properties>
-        <spring.maven.artifact.version>4.3.25.RELEASE</spring.maven.artifact.version>
-        <egovframework.rte.version>3.10.0</egovframework.rte.version>
+        <spring.maven.artifact.version>5.3.39-egov.1</spring.maven.artifact.version>
+        <org.egovframe.rte.version>4.3.1</org.egovframe.rte.version>
     </properties>
 
     <repositories>
@@ -46,29 +46,29 @@
 
     <dependencies>
         <dependency>
-            <groupId>egovframework.rte</groupId>
-            <artifactId>egovframework.rte.fdl.xml</artifactId>
-            <version>${egovframework.rte.version}</version>
+            <groupId>org.egovframe.rte</groupId>
+            <artifactId>org.egovframe.rte.fdl.xml</artifactId>
+            <version>${org.egovframe.rte.version}</version>
         </dependency>
         <dependency>
-            <groupId>egovframework.rte</groupId>
-            <artifactId>egovframework.rte.psl.dataaccess</artifactId>
-            <version>${egovframework.rte.version}</version>
+            <groupId>org.egovframe.rte</groupId>
+            <artifactId>org.egovframe.rte.psl.dataaccess</artifactId>
+            <version>${org.egovframe.rte.version}</version>
         </dependency>
         <dependency>
-            <groupId>egovframework.rte</groupId>
-            <artifactId>egovframework.rte.fdl.idgnr</artifactId>
-            <version>${egovframework.rte.version}</version>
+            <groupId>org.egovframe.rte</groupId>
+            <artifactId>org.egovframe.rte.fdl.idgnr</artifactId>
+            <version>${org.egovframe.rte.version}</version>
         </dependency>
         <dependency>
-            <groupId>egovframework.rte</groupId>
-            <artifactId>egovframework.rte.fdl.property</artifactId>
-            <version>${egovframework.rte.version}</version>
+            <groupId>org.egovframe.rte</groupId>
+            <artifactId>org.egovframe.rte.fdl.property</artifactId>
+            <version>${org.egovframe.rte.version}</version>
         </dependency>
         <dependency>
-            <groupId>egovframework.rte</groupId>
-            <artifactId>egovframework.rte.ptl.mvc</artifactId>
-            <version>${egovframework.rte.version}</version>
+            <groupId>org.egovframe.rte</groupId>
+            <artifactId>org.egovframe.rte.ptl.mvc</artifactId>
+            <version>${org.egovframe.rte.version}</version>
         </dependency>
 		
         <!-- fileupload -->
@@ -81,7 +81,7 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-crypto</artifactId>
-            <version>4.2.20.RELEASE</version>
+            <version>5.8.16</version>
         </dependency>
 
         <!-- xercesImpl -->
@@ -128,9 +128,16 @@
 
         <dependency>
             <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
+            <artifactId>javax.servlet-api</artifactId>
             <scope>provided</scope>
-            <version>2.5</version>
+            <version>4.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <scope>provided</scope>
+            <version>2.3.3</version>
         </dependency>
 
         <dependency>

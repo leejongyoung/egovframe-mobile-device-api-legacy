@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.mbl.bar.service.BarcodescannerAPIDefaultVO;
 import egovframework.hyb.mbl.bar.service.BarcodescannerAPIVO;
 import egovframework.hyb.mbl.bar.service.EgovBarcodescannerAPIService;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 /**  
  * @Class Name : EgovBarcodescannerAPIService.java

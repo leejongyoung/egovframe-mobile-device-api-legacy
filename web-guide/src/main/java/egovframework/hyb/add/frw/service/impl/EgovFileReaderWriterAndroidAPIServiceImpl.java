@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import egovframework.hyb.add.frw.service.EgovFileReaderWriterAndroidAPIService;
 import egovframework.hyb.add.frw.service.FileReaderWriterAndroidAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 /**  
  * @Class Name : EgovFileReaderWriterAndroidAPIServiceImpl.java

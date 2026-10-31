@@ -29,7 +29,7 @@ import egovframework.com.cmm.security.DeviceAPIAuthSupport;
 import egovframework.com.cmm.security.DeviceAPILoginVO;
 import egovframework.hyb.ios.itf.service.EgovInterfaceiOSAPIService;
 import egovframework.hyb.ios.itf.service.InterfaceiOSAPIVO;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

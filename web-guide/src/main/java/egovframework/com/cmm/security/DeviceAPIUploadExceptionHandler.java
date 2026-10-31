@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import egovframework.rte.fdl.cmmn.exception.EgovBizException;
+import org.egovframe.rte.fdl.cmmn.exception.EgovBizException;
 
 /**
  * Returns sample-app compatible responses when upload validation fails.

@@ -17,7 +17,7 @@ package egovframework.hyb.add.cps.service;
 
 import java.util.List;
 
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovCompassAPIService.java

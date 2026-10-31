@@ -32,8 +32,8 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.add.mda.service.EgovMediaAndroidAPIService;
 import egovframework.hyb.add.mda.service.MediaAndroidAPIFileVO;
 import egovframework.hyb.add.mda.service.MediaAndroidAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovMediaAndroidAPIServiceImpl.java

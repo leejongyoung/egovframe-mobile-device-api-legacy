@@ -32,7 +32,7 @@ import egovframework.hyb.add.acl.service.AcceleratorAndroidAPIDefaultVO;
 import egovframework.hyb.add.acl.service.AcceleratorAndroidAPIVO;
 import egovframework.hyb.add.acl.service.AcceleratorAndroidAPIVOList;
 import egovframework.hyb.add.acl.service.EgovAcceleratorAndroidAPIService;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

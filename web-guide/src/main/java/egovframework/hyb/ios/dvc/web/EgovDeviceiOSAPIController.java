@@ -27,7 +27,7 @@ import org.springframework.web.servlet.ModelAndView;
 import egovframework.com.cmm.security.DeviceAPIAuthSupport;
 import egovframework.hyb.ios.dvc.service.DeviceiOSAPIVO;
 import egovframework.hyb.ios.dvc.service.EgovDeviceiOSAPIService;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

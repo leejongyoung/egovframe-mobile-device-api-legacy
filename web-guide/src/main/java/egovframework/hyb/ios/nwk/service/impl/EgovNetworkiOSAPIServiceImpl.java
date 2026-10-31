@@ -23,8 +23,8 @@ import org.springframework.stereotype.Service;
 
 import egovframework.hyb.ios.nwk.service.EgovNetworkiOSAPIService;
 import egovframework.hyb.ios.nwk.service.NetworkiOSAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovSampleServiceImpl.java

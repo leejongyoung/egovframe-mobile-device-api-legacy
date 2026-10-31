@@ -34,7 +34,7 @@ import egovframework.hyb.ios.mda.service.MediaiOSAPIFileVO;
 import egovframework.hyb.ios.mda.service.MediaiOSAPIVO;
 import egovframework.hyb.ios.mda.service.MediaiOSAPIXmlVO;
 import egovframework.hyb.ios.mda.service.impl.EgovMediaiOSFileMngUtil;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

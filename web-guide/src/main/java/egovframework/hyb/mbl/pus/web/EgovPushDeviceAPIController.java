@@ -33,7 +33,7 @@ import egovframework.com.cmm.security.DeviceAPIAuthSupport;
 import egovframework.hyb.mbl.pus.service.EgovPushDeviceAPIService;
 import egovframework.hyb.mbl.pus.service.PushDeviceAPIDefaultVO;
 import egovframework.hyb.mbl.pus.service.PushDeviceAPIVO;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

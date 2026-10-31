@@ -25,7 +25,7 @@ import org.springframework.stereotype.Service;
 
 import egovframework.hyb.mbl.fop.service.EgovFileOpenerDeviceAPIService;
 import egovframework.hyb.mbl.fop.service.FileOpenerDeviceAPIDefaultVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 
 /**  

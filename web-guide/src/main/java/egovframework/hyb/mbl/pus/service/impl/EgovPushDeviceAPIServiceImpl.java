@@ -42,7 +42,7 @@ import egovframework.com.cmm.service.EgovProperties;
 import egovframework.hyb.mbl.pus.service.EgovPushDeviceAPIService;
 import egovframework.hyb.mbl.pus.service.PushDeviceAPIDefaultVO;
 import egovframework.hyb.mbl.pus.service.PushDeviceAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 import javapns.communication.ConnectionToAppleServer;
 import javapns.communication.exceptions.CommunicationException;
 import javapns.communication.exceptions.KeystoreException;

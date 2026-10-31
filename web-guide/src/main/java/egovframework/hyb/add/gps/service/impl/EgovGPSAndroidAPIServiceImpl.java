@@ -21,7 +21,7 @@ import egovframework.hyb.add.gps.service.EgovGPSAndroidAPIService;
 import egovframework.hyb.add.gps.service.GPSAndroidAPIDefaultVO;
 import egovframework.hyb.add.gps.service.GPSAndroidAPIVO;
 
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 import javax.annotation.Resource;
 

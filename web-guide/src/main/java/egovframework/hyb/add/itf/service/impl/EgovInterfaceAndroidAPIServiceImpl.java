@@ -19,7 +19,7 @@ import egovframework.com.cmm.security.DeviceAPIPasswordUtil;
 import egovframework.hyb.add.itf.service.EgovInterfaceAndroidAPIService;
 import egovframework.hyb.add.itf.service.InterfaceAndroidAPIVO;
 
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 import javax.annotation.Resource;
 

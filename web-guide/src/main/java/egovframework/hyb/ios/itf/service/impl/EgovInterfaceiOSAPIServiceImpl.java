@@ -22,7 +22,7 @@ import org.springframework.stereotype.Service;
 import egovframework.com.cmm.security.DeviceAPIPasswordUtil;
 import egovframework.hyb.ios.itf.service.EgovInterfaceiOSAPIService;
 import egovframework.hyb.ios.itf.service.InterfaceiOSAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 /**  
  * @Class Name : EgovInterfaceiOSAPIServiceImpl.java

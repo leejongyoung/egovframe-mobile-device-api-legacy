@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 import egovframework.hyb.mbl.jai.service.EgovJailbreakDetectionDeviceAPIService;
 import egovframework.hyb.mbl.jai.service.JailbreakDetectionDeviceAPIDefaultVO;
 import egovframework.hyb.mbl.jai.service.JailbreakDetectionDeviceAPIVO;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

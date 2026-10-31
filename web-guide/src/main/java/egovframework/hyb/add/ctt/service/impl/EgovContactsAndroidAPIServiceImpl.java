@@ -8,7 +8,7 @@ import java.util.List;
 import egovframework.hyb.add.ctt.service.ContactsAndroidAPIVO;
 import egovframework.hyb.add.ctt.service.EgovContactsAndroidAPIService;
 
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 import javax.annotation.Resource;
 

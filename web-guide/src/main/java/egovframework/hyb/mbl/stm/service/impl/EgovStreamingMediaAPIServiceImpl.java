@@ -19,7 +19,7 @@ import egovframework.hyb.mbl.stm.service.EgovStreamingMediaAPIService;
 import egovframework.hyb.mbl.stm.service.StreamingMediaAPIDefaultVO;
 import egovframework.hyb.mbl.stm.service.StreamingMediaAPIFileVO;
 import egovframework.hyb.mbl.stm.service.StreamingMediaAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 /**  
  * @Class Name : EgovStreamingMediaAPIServiceImpl.java

@@ -22,7 +22,7 @@ import egovframework.hyb.add.vbr.service.VibratorAndroidAPIDefaultVO;
 import egovframework.hyb.add.vbr.service.VibratorAndroidAPIVO;
 import egovframework.hyb.add.vbr.service.VibratorAndroidAPIXmlVO;
 
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
 
 import javax.annotation.Resource;
 

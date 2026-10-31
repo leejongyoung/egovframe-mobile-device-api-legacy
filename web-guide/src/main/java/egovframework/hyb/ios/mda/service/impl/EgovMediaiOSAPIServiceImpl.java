@@ -33,8 +33,8 @@ import org.springframework.stereotype.Service;
 import egovframework.hyb.ios.mda.service.EgovMediaiOSAPIService;
 import egovframework.hyb.ios.mda.service.MediaiOSAPIFileVO;
 import egovframework.hyb.ios.mda.service.MediaiOSAPIVO;
-import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
-import egovframework.rte.fdl.cmmn.exception.BaseRuntimeException;
+import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
+import org.egovframe.rte.fdl.cmmn.exception.BaseRuntimeException;
 
 /**  
  * @Class Name : EgovMediaiOSAPIServiceImpl.java

@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 import egovframework.hyb.mbl.bar.service.BarcodescannerAPIDefaultVO;
 import egovframework.hyb.mbl.bar.service.BarcodescannerAPIVO;
 import egovframework.hyb.mbl.bar.service.EgovBarcodescannerAPIService;
-import egovframework.rte.fdl.property.EgovPropertyService;
+import org.egovframe.rte.fdl.property.EgovPropertyService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
